@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+
+body {
+    background-color: #a587b4;
+}
+
+h1 {
+    padding: 0; 
+    margin: 0; 
+    font-family: Raleway, sans-serif; 
+    color: #FFF; 
+    text-align: center; 
+    font-size: 4em;
+}
+
+hr {
+    margin-top: 10px; 
+    width: 80%;
+    border-bottom: 3px dashed #FFF; 
+}
+/**************** BODY OF PHONE ****************/
+
+.phone {
+    position: relative;
+    margin: 50px auto;
+    height: 640px;
+    width: 333px;
+    background-color: #282828;
+    border-radius: 55px;
+    .lock {
+        top: 200px;
+        margin-left: 332px;
+        position: absolute;
+        height: 40px;
+        width: 5px;
+        background-color: #282828;
+        border-radius: 5px;
+    }
+    .volume {
+        top: 256px;
+        margin-left: 332px;
+        position: absolute;
+        height: 70px;
+        width: 5px;
+        background-color: #282828;
+        border-radius: 5px;
+    }
+    .top_speaker {
+        bottom: 525px;
+        position: relative;
+        margin: 0 auto;
+        width: 90px;
+        height: 10px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272;
+    }
+    .bottom_speaker {
+        bottom: -60px;
+        position: relative;
+        margin: 0 auto;
+        width: 90px;
+        height: 10px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272;
+    }
+    .camera {
+        top: 17px;
+        margin-left: 240px;
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272
+    }
+    /**************** SCREEN OF PHONE ****************/
+    
+    .screen {
+        top: 59px;
+        width: 300px;
+        height: 540px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #e5e5e5;
+        .status_bar {
+            position: absolute;
+            width: inherit;
+            height: 20px;
+            background-color: black;
+        }
+        .controls {
+            bottom: 0;
+            position: absolute;
+            width: inherit;
+            height: 35px;
+            background-color: black;
+        }
+        .big_element {
+            top: 40px;
+            left: 15px;
+            position: absolute;
+            width: 270px;
+            height: 120px;
+            background-color: #82bcf7;
+        }
+        .left_column {
+            position: absolute;
+            margin-top: 180px;
+            left: 15px;
+            width: 150px;
+            height: 310px;
+            background-color: #ed7c7c;
+        }
+        .right_column_top {
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 185px;
+            height: 110px;
+            width: 100px;
+            background-color: #f0f390;
+        }
+        .right_column_bottom {
+            position: absolute;
+            top: 310px;
+            margin-left: 185px;
+            height: 180px;
+            width: 100px;
+            background-color: #45d35c;
+        }
+    }
+}

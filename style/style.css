@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+/* line 3, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+body {
+  background-color: #a587b4; }
+
+/* line 7, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+h1 {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 4em; }
+
+/* line 16, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+hr {
+  margin-top: 10px;
+  width: 80%;
+  border-bottom: 3px dashed #FFF; }
+
+/**************** BODY OF PHONE ****************/
+/* line 23, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+.phone {
+  position: relative;
+  margin: 50px auto;
+  height: 640px;
+  width: 333px;
+  background-color: #282828;
+  border-radius: 55px;
+  /**************** SCREEN OF PHONE ****************/ }
+  /* line 30, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .lock {
+    top: 200px;
+    margin-left: 332px;
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    background-color: #282828;
+    border-radius: 5px; }
+  /* line 39, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .volume {
+    top: 256px;
+    margin-left: 332px;
+    position: absolute;
+    height: 70px;
+    width: 5px;
+    background-color: #282828;
+    border-radius: 5px; }
+  /* line 48, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .top_speaker {
+    bottom: 525px;
+    position: relative;
+    margin: 0 auto;
+    width: 90px;
+    height: 10px;
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: 0 1px 0px 0 #727272; }
+  /* line 58, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .bottom_speaker {
+    bottom: -60px;
+    position: relative;
+    margin: 0 auto;
+    width: 90px;
+    height: 10px;
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: 0 1px 0px 0 #727272; }
+  /* line 68, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .camera {
+    top: 17px;
+    margin-left: 240px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: 0 1px 0px 0 #727272; }
+  /* line 80, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+  .phone .screen {
+    top: 59px;
+    width: 300px;
+    height: 540px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #e5e5e5; }
+    /* line 87, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .status_bar {
+      position: absolute;
+      width: inherit;
+      height: 20px;
+      background-color: black; }
+    /* line 93, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .controls {
+      bottom: 0;
+      position: absolute;
+      width: inherit;
+      height: 35px;
+      background-color: black; }
+    /* line 100, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .big_element {
+      top: 40px;
+      left: 15px;
+      position: absolute;
+      width: 270px;
+      height: 120px;
+      background-color: #82bcf7; }
+    /* line 108, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .left_column {
+      position: absolute;
+      margin-top: 180px;
+      left: 15px;
+      width: 150px;
+      height: 310px;
+      background-color: #ed7c7c; }
+    /* line 116, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .right_column_top {
+      position: absolute;
+      margin-top: 180px;
+      margin-left: 185px;
+      height: 110px;
+      width: 100px;
+      background-color: #f0f390; }
+    /* line 124, /Users/anguy95/Desktop/Nexus6CSS/style/style.scss */
+    .phone .screen .right_column_bottom {
+      position: absolute;
+      top: 310px;
+      margin-left: 185px;
+      height: 180px;
+      width: 100px;
+      background-color: #45d35c; }
+
+/*# sourceMappingURL=style.css.map */
